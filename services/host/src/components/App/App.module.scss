@@ -1,8 +1,23 @@
-.button {
-  color: #a81f1f;
-  width: 500px;
+* {
+  margin: 0;
+  padding: 0;
+}
 
-  span {
-    color: green;
-  }
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
 }

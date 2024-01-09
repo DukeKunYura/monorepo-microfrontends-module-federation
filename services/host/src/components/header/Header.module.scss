@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    background-color: rgb(136, 136, 136);
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    max-width: 1200px;
+    min-width: 600px;
+
+    .link {
+        text-decoration: none;
+        color: white;
+        transition: 0.5s;
+
+        &:hover {
+            color: rgb(43, 59, 63);
+            transition: 0.5s;
+        }
+        
+    }
+}

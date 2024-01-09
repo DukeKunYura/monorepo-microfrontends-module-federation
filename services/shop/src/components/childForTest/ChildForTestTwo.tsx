@@ -1,3 +1,5 @@
+import classes from "./Child.module.scss";
+
 export const ChildForTestTwo = () => {
-  return <div>TWO</div>;
+  return <div className={classes.content}>TWO</div>;
 };
