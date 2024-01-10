@@ -2,7 +2,7 @@
 
 ### webpack-module-federation
 
-#### The project is built using Webpack to divide its services into independent micro-front ends. The build microservices use packages from the main repository.
+#### The project is built using Webpack to divide its services into independent microfrontends. The build microservices use packages from the main repository.
 
 To launch all services, you need to run commands `npm start`  from the directory:
  - /services/admin/
