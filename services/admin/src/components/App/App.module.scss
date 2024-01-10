@@ -1,8 +1,67 @@
-.button {
-  color: #a81f1f;
-  width: 500px;
+* {
+  margin: 0;
+  padding: 0;
+}
 
-  span {
-    color: green;
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.app {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+  .header {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(212, 212, 212);
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    max-width: 1200px;
+    min-width: 600px;
+
+    .title {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 60px;
+      width: 100%;
+      max-width: 1200px;
+      min-width: 600px;
+    }
+
+    .links {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .link {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      text-decoration: none;
+      color: white;
+      transition: 0.5s;
+
+      &:hover {
+        color: rgb(43, 59, 63);
+        transition: 0.5s;
+      }
+    }
   }
 }
