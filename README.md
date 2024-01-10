@@ -9,4 +9,4 @@ To launch all services, you need to run commands `npm start`  from the directory
  - /services/shop/
  - /services/host/
 
-![screen](https://github.com/DukeKunYura/monorepo-microfrontends-module-federation/blob/main/packeges/shared/src/img/screen.png)
+![screen](https://github.com/DukeKunYura/monorepo-microfrontends-module-federation/blob/main/packages/shared/src/img/screen.png)
